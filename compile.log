@@ -1,0 +1,61 @@
+[INFO] Scanning for projects...
+[INFO] Loaded 24428 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[INFO] 
+[INFO] -------< edu.research.userstory:LLM-UserStory-Builder-Framework >-------
+[INFO] Building LLM-UserStory-Builder-Framework 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Loaded 64 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots.txt)
+[INFO] 
+[INFO] --- clean:3.4.0:clean (default-clean) @ LLM-UserStory-Builder-Framework ---
+[INFO] Deleting /workspaces/codespaces-blank/LLM-UserStory-Builder-Framework/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ LLM-UserStory-Builder-Framework ---
+[INFO] skip non existing resourceDirectory /workspaces/codespaces-blank/LLM-UserStory-Builder-Framework/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ LLM-UserStory-Builder-Framework ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 6 source files with javac [debug release 17] to target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /workspaces/codespaces-blank/LLM-UserStory-Builder-Framework/src/main/java/edu/research/userstory/llm/UserStoryValidator.java:[75,20] cannot find symbol
+  symbol:   class Result
+  location: class edu.research.userstory.llm.UserStoryValidator
+[ERROR] /workspaces/codespaces-blank/LLM-UserStory-Builder-Framework/src/main/java/edu/research/userstory/llm/UserStoryValidator.java:[63,17] cannot find symbol
+  symbol:   class Result
+  location: class edu.research.userstory.llm.UserStoryValidator
+[ERROR] /workspaces/codespaces-blank/LLM-UserStory-Builder-Framework/src/main/java/edu/research/userstory/llm/UserStoryValidator.java:[76,9] cannot find symbol
+  symbol:   class Result
+  location: class edu.research.userstory.llm.UserStoryValidator
+[ERROR] /workspaces/codespaces-blank/LLM-UserStory-Builder-Framework/src/main/java/edu/research/userstory/llm/UserStoryValidator.java:[76,24] cannot find symbol
+  symbol:   class Result
+  location: class edu.research.userstory.llm.UserStoryValidator
+[INFO] 4 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[ERROR] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.464 s
+[INFO] Finished at: 2026-11-10T01:54:45Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project LLM-UserStory-Builder-Framework: Compilation failure: Compilation failure: 
+[ERROR] /workspaces/codespaces-blank/LLM-UserStory-Builder-Framework/src/main/java/edu/research/userstory/llm/UserStoryValidator.java:[75,20] cannot find symbol
+[ERROR]   symbol:   class Result
+[ERROR]   location: class edu.research.userstory.llm.UserStoryValidator
+[ERROR] /workspaces/codespaces-blank/LLM-UserStory-Builder-Framework/src/main/java/edu/research/userstory/llm/UserStoryValidator.java:[63,17] cannot find symbol
+[ERROR]   symbol:   class Result
+[ERROR]   location: class edu.research.userstory.llm.UserStoryValidator
+[ERROR] /workspaces/codespaces-blank/LLM-UserStory-Builder-Framework/src/main/java/edu/research/userstory/llm/UserStoryValidator.java:[76,9] cannot find symbol
+[ERROR]   symbol:   class Result
+[ERROR]   location: class edu.research.userstory.llm.UserStoryValidator
+[ERROR] /workspaces/codespaces-blank/LLM-UserStory-Builder-Framework/src/main/java/edu/research/userstory/llm/UserStoryValidator.java:[76,24] cannot find symbol
+[ERROR]   symbol:   class Result
+[ERROR]   location: class edu.research.userstory.llm.UserStoryValidator
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
